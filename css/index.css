@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d1117;
+}
+
+.pict {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 8px;
+  */
+}
+
+.coelom {
+  float: left;
+  padding: 5px;
+}
+
+.coleom1 {
+  width: 90%;
+}
+.row {
+  display: flex;
+  /* align-items: center; */
+  width: 101.9%;
+  justify-content: center;
+}
+.pict img {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.images img {
+  height: 22%;
+  padding: 10px 10px;
+  object-position: 50% 50%;
+}
+
+.about {
+  font-family: "Courier New", Courier, monospace;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+}
+
+.about p {
+  text-align: center;
+  padding-bottom: 10%;
+  color: #fff;
+  width: 80vw;
+}
+
+.about h1 {
+  padding-bottom: 10px;
+}
+
+.cult {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+}
+
+.cult h1 {
+  border: 4px solid #e02d4b;
+  border-radius: 5px;
+  background-color: #e02d4b;
+  width: 80vw;
+  text-align: end;
+}
+
+.raw {
+  padding-top: 5%;
+  display: flexbox;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-area: "colom1 colom3" "colom2 colom4" "colom5 colom5";
+}
+
+.colom1 {
+  grid-area: colom1;
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  padding-left: 20%;
+  padding-bottom: 30px;
+}
+
+.colom2 {
+  grid-area: colom2;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+
+.colom3 {
+  grid-area: colom3;
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  padding-left: 20%;
+  padding-bottom: 30px;
+}
+
+.colom4 {
+  grid-area: colom4;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+
+.colom5 {
+  display: flex;
+  justify-content: center;
+  grid-area: colom5;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.com1 p {
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+.course {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10%;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10%;
+}
+
+.course h1 {
+  border: 4px solid #206b71;
+  border-radius: 5px;
+  background-color: #206b71;
+  width: 80vw;
+  text-align: start;
+}
