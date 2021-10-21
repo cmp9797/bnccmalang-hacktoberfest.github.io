@@ -7,6 +7,38 @@ body {
   background-color: #0d1117;
 }
 
+/* navbar */
+
+.navbar {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a img {
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding-top: 15px;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3vw;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: #eee;
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar ul li a:hover {
+  background-color: #232931;
+  transition: all 0.9s;
+}
+
 /* banner */
 
 .banner {
