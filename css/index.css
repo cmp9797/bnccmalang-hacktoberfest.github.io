@@ -179,6 +179,16 @@ body {
   padding-left: 5%;
 }
 
+.bncccourse {
+  padding: 0% 10%;
+}
+
+.coursecard a{
+  text-decoration: none;
+  color: #fff;
+  font-size:x-large;
+  padding-left: 5%;
+}
 
 footer {
   width: 100%;
