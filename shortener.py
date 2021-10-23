@@ -22,7 +22,7 @@ def showBanner():
 (_____)(_) (_)(____/'   `\\____)(_) (_)(_____)(_) (_) (_)  (____/'(_) (_)(____/'(_) (_)
                                                                                       
 	> Credit :
-		- Instagram : @syauqqii
+		- Instagram : @syaauqqii
 		- Telegram  : @syauqqii
 
 	> Source API :
