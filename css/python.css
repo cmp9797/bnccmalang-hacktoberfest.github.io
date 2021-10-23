@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0C0E11;
+    color: #E5E3DF;
+}
+p {
+    color: #b7b6b2;
+}
+/*-------------------------------- Segmen 1 (header) -------------------------------*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 120px;
+}
+header .logo img {
+    max-width: 340px;
+    max-height: auto;
+} 
+header .title {
+    margin: auto;
+}
+header .title h1 {
+    font-size: 64px;
+    color: #376F9E; /* optional, disesuaikan warna logo kl mau*/
+}
+/*------------------------------ end Segmen 1 (header) ------------------------------*/
+
+/*------------------------------- Segmen 2 (contents) -------------------------------*/
+/*Mengatur konten secara menyeluruh*/
+.content {
+    padding: 30px 100px;
+}
+.content h2 {
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.content p {
+    font-size: 24px;
+    text-align: center;
+}
+/*Mengatur konten untuk beberapa bagian yang memiliki aturan yang sama*/
+.intro,
+.gallery,
+.credits{
+    padding-bottom: 120px;
+}
+.information,
+.gallery .pictures,
+.credits .photo,
+.credits .team {
+    padding: 0px 30px;
+}
+.content .gallery h2,
+.content .credits h2 {
+    padding-bottom: 0px;
+}
+/*Mengatur konten untuk bagian tertentu yang lebih spesifik*/
+/* bagian gallery */
+.photo img {
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* bagian credits */
+.credits p {
+    padding: 25px;
+}
+/*------------------------------ end Segmen 1 (header) ------------------------------*/
