@@ -212,6 +212,10 @@ body {
   color: blue;
 }
 
+.board a{
+  color: blue;
+}
+
 @media screen and (max-width: 600px) {
   .kolom {
     width: 100%;
