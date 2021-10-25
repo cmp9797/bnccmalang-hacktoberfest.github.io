@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   background-color: #0d1117;
@@ -33,7 +34,7 @@ body {
   padding: 8px 30px;
   border-radius: 10px;
   color: #eee;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
 }
 .navbar ul li a:hover {
   background-color: #232931;
@@ -71,7 +72,7 @@ body {
 
 .about {
   padding-top: 20vh;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   display: flex;
   justify-content: center;
 }
@@ -90,7 +91,7 @@ body {
 
 
 .cult {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
   color: #fff;
   justify-content: center;
   display: flex;
@@ -98,9 +99,9 @@ body {
 
 .cult h1 {
   padding-right: 6%;
-  border: 4px solid #e02d4b;
+  border: 4px solid #F74700;
   border-radius: 5px;
-  background-color: #e02d4b;
+  background-color: #F74700;
   width: 80vw;
   text-align: end;
 }
@@ -108,7 +109,7 @@ body {
 .raw {
   padding-top: 5%;
   display: flexbox;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-area: "colom1 colom3" "colom2 colom4" "colom5 colom5";
@@ -163,7 +164,7 @@ body {
   text-align: center;
 }
 .course {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
   padding-top: 10%;
   color: #fff;
   justify-content: center;
@@ -185,9 +186,9 @@ body {
 
 .coursecard a{
   text-decoration: none;
-  color: #fff;
   font-size:x-large;
   padding-left: 5%;
+  color: #fff;
 }
 
 .kolom {
@@ -208,8 +209,9 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   padding: 16px;
   text-align: center;
-  background-color: white;
-  color: blue;
+  border-radius: 2%;
+  background-color: #242629;
+  /* color: blue; */
 }
 
 @media screen and (max-width: 600px) {
