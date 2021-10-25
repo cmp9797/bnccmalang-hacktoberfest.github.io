@@ -1,5 +1,7 @@
 ## SELAMAT DATANG DI HACTOBERFEST BERSAMA BNCC!
 
+<img src="https://github.com/BNCC-Malang/bnccmalang-hacktoberfest.github.io/blob/master/Picture/Banner.png" alt="banner"></img>
+
 ### Gimana cara berkontribusi di Hactoberfest?
 Secara sederhana, cara berkontribusi dengan hacktoberfest adalah dengan membuat pull request ke project yang terdapat #hacktoberfest. Lakukan 4 pull request agar kalian mendapat hadiah dari Hacktoberfest!
 
