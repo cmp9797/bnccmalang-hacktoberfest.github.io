@@ -31,7 +31,7 @@ Ketika sudah melakukan pull request belum di acc, maka kalian tidak bisa melakuk
 >> 11) Klik simbol titik tiga diatas lagi dan pilih **branch -> create new branch**
 >> 12) Masukan nama brach (bebas, tanpa spasi), klik enter
 >> 13) Akan muncul notif, pilih switch to branch
->> 14) 
+>> 14) tes123
 
 
 >6. Untuk mengecek pull request sudah terdeteksi oleh Hacktoberfest atau belum, kalian dapat mengecek di [link berikut](https://hacktoberfest.digitalocean.com/profile).
