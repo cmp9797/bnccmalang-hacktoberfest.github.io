@@ -23,7 +23,7 @@ Ulangi step dibawah 4x, supaya bisa mencapai 4x pull request (jadi jangan diubah
 >> 5) Lakukan beberapa perubahan (judul, isi paragraf, dll)
 >> 6) Klik simbol source kontrol yang ada di sisi kiri (ctrl+shift+G)
 >> 7) Isi keterangan apa yang kamu ubah lalu cari simbol titik tiga diatas dan pilih **commit -> commit**
->> 8) Klik simbol titik tiga diatas lagi dan pilih **pull request -> create pull request**.
+>> 8) Klik simbol titik tiga diatas lagi dan pilih **pull request -> create pull request**, lalu klik create.
 >> 9) Menunggu Pull Request diterima oleh pemilik Repository.
 
 Ketika sudah melakukan pull request belum di acc, maka kalian tidak bisa melakukan pull request lagi. Maka solusinya adalah membuat **brach** baru.
