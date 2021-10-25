@@ -209,7 +209,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color: white;
-  color: #242629;
+  color: blue;
 }
 
 @media screen and (max-width: 600px) {
