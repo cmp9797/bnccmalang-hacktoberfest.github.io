@@ -36,5 +36,8 @@ Secara sederhana, cara berkontribusi dengan hacktoberfest adalah dengan membuat 
 >6. Untuk mengecek pull request sudah terdeteksi oleh Hacktoberfest atau belum, kalian dapat mengecek di [link berikut](https://hacktoberfest.digitalocean.com/profile).
 >
 > Link untuk penjelasan singkat HTML [klik disini.](https://bnccmalang.notion.site/bnccmalang/Hacktoberfest-with-BNCC-d8eeeebed80b4394b858a540ea47c57c)
+>
+>Kalau ada kendala, bisa didiskusikan ke group
+>
 
-
+### TERIMA KASIH ATAS PARTISIPASINYA.
