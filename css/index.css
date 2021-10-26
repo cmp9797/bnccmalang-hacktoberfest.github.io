@@ -169,7 +169,7 @@ body {
   color: #fff;
   justify-content: center;
   display: flex;
-  padding-bottom: 10%;
+  padding-bottom: 4%;
 }
 
 .course h1 {
@@ -195,6 +195,7 @@ body {
   float: left;
   width: 25%;
   padding: 0 10px;
+  margin-bottom: 2%;
 }
 
 .rew {margin: 0 -5px;}
