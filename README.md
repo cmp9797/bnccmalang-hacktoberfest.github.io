@@ -30,10 +30,11 @@ Secara sederhana, cara berkontribusi dengan hacktoberfest adalah dengan membuat 
 >
 >Ketika sudah melakukan pull request belum di acc, maka kalian tidak bisa melakukan pull request lagi. Maka solusinya adalah membuat **brach** baru.
 >
->> 10) Lakukan pull request terlebih dulu (step 5-9)
+>> 10) Silahkan kembali ke VS Code tadi, lalu klik simbol source kontrol yang ada di sisi kiri (ctrl+shift+G)
 >> 11) Klik simbol titik tiga diatas lagi dan pilih **branch -> create new branch**
 >> 12) Masukan nama branch (bebas, tanpa spasi), klik enter
 >> 13) Akan muncul notif, pilih switch to branch, lalu klik create
+>> 14) Lakukan pull request terlebih dulu (step 5-9)
 >
 >6. Untuk mengecek pull request sudah terdeteksi oleh Hacktoberfest atau belum, kalian dapat mengecek di [link berikut](https://hacktoberfest.digitalocean.com/profile).
 >
