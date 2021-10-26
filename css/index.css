@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 body {
   background-color: #0d1117;
@@ -98,9 +99,9 @@ body {
 
 .cult h1 {
   padding-right: 6%;
-  border: 4px solid #e02d4b;
+  border: 4px solid #F74700;
   border-radius: 5px;
-  background-color: #e02d4b;
+  background-color: #F74700;
   width: 80vw;
   text-align: end;
 }
@@ -168,7 +169,7 @@ body {
   color: #fff;
   justify-content: center;
   display: flex;
-  padding-bottom: 10%;
+  padding-bottom: 4%;
 }
 
 .course h1 {
@@ -188,6 +189,41 @@ body {
   color: #fff;
   font-size:x-large;
   padding-left: 5%;
+}
+
+.kolom {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 2%;
+}
+
+.rew {margin: 0 -5px;}
+
+.rew:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.board {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #E5E3DF;
+  border-radius: 2%;
+}
+
+.board a{
+  color: #242629;
+}
+
+@media screen and (max-width: 600px) {
+  .kolom {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 footer {
@@ -231,4 +267,70 @@ footer .wave {
   100% {
     transform: rotate(0deg);
   }
+}
+
+
+.culture {
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.culture * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.culture li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.culture a {
+  padding: .5em .8em;
+  color: rgba(255, 255, 255, 0.671);
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.culture a::before,
+.culture a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.culture a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  transform: translate(-100%, 50%);
+}
+
+.culture a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  transform: translate(100%, -50%)
+}
+
+.culture a:hover:before,
+.culture a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.culture a:hover {
+  color: #ff0000;
 }
